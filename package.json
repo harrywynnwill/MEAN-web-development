@@ -5,7 +5,12 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.14.0",
-    "grunt": "latest"
+    "grunt": "latest",
+    "morgan": "~1.3.0",
+    "compression": "~1.0.11",
+    "body-parser": "~1.8.0",
+    "method-override": "~2.2.0",
+    "ejs": "~1.0.0"
   },
   "devDependencies": {},
   "scripts": {
