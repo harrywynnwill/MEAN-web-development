@@ -10,7 +10,9 @@
     "compression": "~1.0.11",
     "body-parser": "~1.8.0",
     "method-override": "~2.2.0",
-    "ejs": "~1.0.0"
+    "express-session": "latest",
+    "ejs": "~1.0.0",
+    "mongoose": "latest"
   },
   "devDependencies": {},
   "scripts": {
