@@ -7,6 +7,7 @@ exports.create = function(req, res, next) {
     if (err){
       return next(err);
     } else {
+      console.log(user.authenticate('password'))
       res.json(user);
     }
   });
